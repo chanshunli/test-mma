@@ -1,2 +1,13 @@
+In[15]:=
 
 A={{2,0,1},{1,-4,-1},{-1,8,3}};
+Det[A]
+
+Out[17]= -4
+In[19]:= 
+NestList[f,x,4]
+Out[19]= {x,f[x],f[f[x]],f[f[f[x]]],f[f[f[f[x]]]]}
+
+
+In[6]:= NestList[Framed,x,4]
+Out[6]= {x,x,x,x,x}
