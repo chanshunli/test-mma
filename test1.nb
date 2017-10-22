@@ -9,3 +9,11 @@ Out[20]= {x,f[x],f[f[x]],f[f[f[x]]],f[f[f[f[x]]]]}
 
 In[6]:= NestList[Framed,x,4]
 Out[6]= {x,x,x,x,x}
+In[24]:= Nest[Framed,x,5]
+Out[24]= x
+In[25]:= NestList[EdgeDetect,,6]
+Out[25]= {,,,,,,}
+In[27]:= 
+
+NestList[EdgeDetect, , 5]
+Out[27]= {,,,,,}
